@@ -52,6 +52,7 @@ body .ir-arriba:hover {
 div #navbarNav a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: aqua;
+    border-color: #de23f6;
 }
 
 .logo {
