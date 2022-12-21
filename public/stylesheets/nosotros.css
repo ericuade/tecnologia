@@ -3,7 +3,7 @@
 .nosotros{
     display: flex;
     flex-direction: column;
-    background-color:#F6E8F2;
+    background-color:whitesmoke;
 }
 /*----------Estilo Parrafos-----------*/
 .p-nosotros{
