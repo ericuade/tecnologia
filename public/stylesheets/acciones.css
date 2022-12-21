@@ -1,0 +1,119 @@
+/*-----Estilo Contenedor Acciones concretas-----*/
+
+/* #acciones {
+    max-width: 1400px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+} */
+
+
+/*--------Titulo Acciones concretas----------*/
+
+.titulo-acciones {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    padding-bottom: 0px;
+}
+
+
+/*----------Estilo Parrafos-----------*/
+
+.lead {
+    font-family: Questrial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    padding-top: 20px;
+    line-height: 20px;
+}
+
+
+/*------------Estilo Botones-----------*/
+
+#ir {
+    cursor: pointer;
+    border: none;
+    
+    width: 20%;
+    font-size: small;
+    margin: 5px;
+    color: white;
+    background-color: #967cdd;
+    border-radius: 10px;
+    transition: transform 0.5 ease;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, .65);
+}
+
+#ir:hover {
+    color: #000!important;
+    background-color: #967cdd;
+    transform: scale(1.01);
+}
+
+.donar {
+    cursor: pointer;
+    border: none;
+    
+    width: 20%;
+    font-size: small;
+    margin: 5px;
+    color: white;
+    background-color: #967cdd;
+    border-radius: 10px;
+    transition: transform 0.5 ease;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, .65);
+}
+
+
+
+.donar:hover {
+    color: #000!important;
+    background-color: #967cdd;
+    transform: scale(1.01);
+}
+
+
+/* Featurettes
+------------------------- */
+
+
+/* Space out the Bootstrap <hr> more */
+
+.featurette-divider {
+    margin: 3rem 0;
+    width: 95%;
+}
+
+#divider-title {
+    margin-top: 0px;
+}
+
+
+/* Thin out the marketing headings */
+
+.featurette-heading {
+    font-size: 28px;
+    font-family: Questrial;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#img-acciones {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid #000;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media(max-width: 700px) {
+    #img-acciones {
+        width: 200px;
+        height: 200px;
+    }
+}

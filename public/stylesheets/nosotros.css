@@ -1,0 +1,106 @@
+
+/*-----Estilo Contenedor Nosotros-----*/
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    background-color:#F6E8F2;
+}
+/*----------Estilo Parrafos-----------*/
+.p-nosotros{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+}
+.sub-datos{
+    padding-left: 5%;
+}
+
+
+
+/*----------Estilo Imagenes -----------*/
+
+.img-nosotrosCarlos{
+    width: 100%;
+    margin: 0px;
+    border: outset;
+    padding: 1px;
+}
+.img-nosotrosBebe{
+    width: 80%;
+    margin: 0px;
+    border: outset;
+    padding: 1px;
+}
+.img-nosotrosNiños{
+    width: 100%;
+    margin: 0px;
+    padding: 1px;
+    border: outset;
+}
+#container-p{
+    flex-wrap: wrap;
+    display: flex;
+    box-sizing: border-box;
+}
+/*----------Estilo Datos Fundación-----------*/
+.fund-datos{
+    display: flex;
+}
+
+.sub-datos{
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+
+  /* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width:992px) and (max-width: 1150px) {
+    .img-nosotrosCarlos{
+        width: 96%;
+}
+    } 
+@media (max-width: 1000px) {
+
+    .contendor-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #container-p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .img-nosotrosBebe{
+        width: 95%;
+     
+    }
+    .img-nosotrosNiños{
+        width: 95%;
+        
+    }
+    .fund-datos{
+        
+        display: flex;
+        padding-left: 0;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .fund-datos ul{
+        padding-left: 5%
+        
+    }
+}
+@media (max-width: 500px){
+    .img-nosotrosNiños{
+        margin-top: 20%;
+        
+    }
+}

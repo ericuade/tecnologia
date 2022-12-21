@@ -1,0 +1,26 @@
+/* text area - form */
+.bf_contact-textarea{
+	/* height: 800px; */
+	resize: none;
+	/* overflow: scroll; */
+}
+
+/* text under form */
+.bf_text_contact{
+	margin-bottom: 80px;
+}
+
+.bf_submit_button{
+    cursor: pointer;
+    border: none;
+	background-color: #967cdd;
+	color: white;
+    transition: transform 0.5 ease;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, .65);
+}
+
+.__btn-donar:hover {
+    color: #000!important;
+    background-color: #967cdd;
+    transform: scale(1.01);
+}
