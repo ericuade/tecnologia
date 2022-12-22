@@ -7,7 +7,9 @@
     flex-direction: column;
 } */
 
-
+#backcolor {
+    color:whitesmoke;
+}
 /*--------Titulo Acciones concretas----------*/
 
 .titulo-acciones {
@@ -15,6 +17,7 @@
     justify-content: start;
     align-items: flex-start;
     padding-bottom: 0px;
+
 }
 
 
@@ -104,7 +107,7 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 3px solid #000;
+    border: 3px solid rgb(249, 47, 179);
 }
 
 
