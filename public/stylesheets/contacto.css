@@ -1,4 +1,13 @@
 /* text area - form */
+
+#contacto {
+    background-color:#00bfff;
+}
+
+.d-md-block {
+    color: white;
+}
+
 .bf_contact-textarea{
 	/* height: 800px; */
 	resize: none;
@@ -13,7 +22,7 @@
 .bf_submit_button{
     cursor: pointer;
     border: none;
-	background-color: #967cdd;
+	background-color: #de23f6;
 	color: white;
     transition: transform 0.5 ease;
     box-shadow: 0 7px 25px rgba(0, 0, 0, .65);
