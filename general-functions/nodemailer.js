@@ -3,7 +3,7 @@ const nodemailer = require('nodemailer')
 module.exports =  (emailContent, email, ref)=>{
 
        let transporter = nodemailer.createTransport({
-           host: "mail.fundacionramseyer.org.ar",
+           host: "mail.it-dev.ar",
            port : 26,
            secure: false,
            auth: {
